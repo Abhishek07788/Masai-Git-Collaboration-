@@ -8,9 +8,10 @@
     <style>
         #container{
             display:grid;
+            height: 600px;
             width:30%;
-            background-color: rgb(88, 209, 176);
-            margin: 110px 0px 100px 450px;
+            background-color: #48c9b0;
+            margin: 100px 0px 100px 450px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         #container>p{
@@ -19,25 +20,29 @@
             font-size: 40px;
             font-family:calibri;
             font-weight: 1;
-            margin-top:50px;
+            margin-top:30px;
         }
         #container>input{
             font-size: 20px;
-            color:grey;
+            color:rgb(155, 152, 152);
             padding:20px 0px 20px 20px;
-            margin:20px 70px;
+            margin:10px 50px;
             border:none;
         }
         #container>button{
             color:white;
-            background-color: rgb(65, 158, 133);
+            background-color:#17a589;
             font-size: 20px;
-            padding:25px 0px 25px 20px;
-            margin:5px 70px;
+            height: 60px;
+            margin:5px 50px;
+            margin-top: 20px;
             border:none;
         }
         #container>button+button{
             margin-bottom: 80px;
+        }
+        button:hover{
+            background-color:white;
         }
     </style>
 </head>
@@ -47,8 +52,8 @@
         <input type="text" placeholder="Full name">
         <input type="text" placeholder="Email">
         <input type="text" placeholder="Organization">
-        <button>SIGN UP</button>
-        <button>RETURN</button>
+        <button><a href="login.html">SIGN UP</a></button>
+        <button><a href="navbar.html">RETURN</a></button>
     </div>
 </body>
 </html>
